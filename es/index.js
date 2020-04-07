@@ -47,7 +47,7 @@ var _default = function (_Component) {
 
     return React.createElement(
       "div",
-      null,
+      { className: this.props.imageContainer },
       React.createElement("img", {
         className: className,
         style: {
