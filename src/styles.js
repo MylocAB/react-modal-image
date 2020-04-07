@@ -101,5 +101,6 @@ export const lightboxStyles = `
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     overflow: hidden;
+    line-height: normal;
   }
 `;
