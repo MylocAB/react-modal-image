@@ -28,7 +28,7 @@ export default class extends Component {
     const { modalOpen } = this.state;
 
     return (
-      <div>
+      <div className={this.props.imageContainer}>
         <img
           className={className}
           style={{
